@@ -9,9 +9,9 @@ import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;
 import org.springframework.test.context.ActiveProfiles;
-import org.zerock.j07.board.entity.Board;
-import org.zerock.j07.board.entity.Reply;
-import org.zerock.j07.board.repository.ReplyRepository;
+import org.zerock.j08.entity.Board;
+import org.zerock.j08.entity.Reply;
+import org.zerock.j08.repository.ReplyRepository;
 
 import javax.transaction.Transactional;
 import java.util.Optional;

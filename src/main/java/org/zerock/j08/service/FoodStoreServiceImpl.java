@@ -18,7 +18,7 @@ import java.util.stream.Collectors;
 @Service
 @Log4j2
 @RequiredArgsConstructor
-public class FoodStoreServiceImpl implements FoodStoreService{
+public class FoodStoreServiceImpl implements FoodStoreService {
 
     private final FoodStoreRepository foodStoreRepository;
 

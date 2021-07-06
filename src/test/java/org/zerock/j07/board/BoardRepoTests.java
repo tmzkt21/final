@@ -8,11 +8,10 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.test.context.ActiveProfiles;
-import org.zerock.j07.board.entity.Board;
-import org.zerock.j07.board.entity.Favorite;
-import org.zerock.j07.board.repository.BoardRepository;
-import org.zerock.j07.board.repository.FavoriteRepository;
-import org.zerock.j07.todo.repository.TodoRepository;
+import org.zerock.j08.entity.Board;
+import org.zerock.j08.entity.Favorite;
+import org.zerock.j08.repository.BoardRepository;
+import org.zerock.j08.repository.FavoriteRepository;
 
 import java.util.Arrays;
 import java.util.stream.IntStream;

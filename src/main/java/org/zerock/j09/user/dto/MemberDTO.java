@@ -1,17 +1,15 @@
 package org.zerock.j09.user.dto;
 
-import lombok.Data;
 import lombok.ToString;
-import org.springframework.security.core.GrantedAuthority;
-import org.springframework.security.core.userdetails.User;
+import org.springframework.boot.autoconfigure.security.SecurityProperties;
 
 import java.util.Collection;
 
 
-@ToString
-public class MemberDTO extends User {
+//@ToString
+//public class MemberDTO extends SecurityProperties.User {
 
-    public MemberDTO(String username, String password, Collection<? extends GrantedAuthority> authorities) {
-        super(username, password, authorities);
-    }
-}
+//    public MemberDTO(String username, String password, Collection<? extends GrantedAuthority> authorities) {
+//        super(username, password, authorities);
+//    }
+//}

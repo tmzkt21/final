@@ -4,15 +4,14 @@ import lombok.extern.log4j.Log4j2;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.context.annotation.Profile;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;
 import org.springframework.test.annotation.Commit;
 import org.springframework.test.context.ActiveProfiles;
-import org.zerock.j07.todo.entity.Todo;
-import org.zerock.j07.todo.repository.TodoRepository;
+import org.zerock.j08.entity.Todo;
+import org.zerock.j08.repository.TodoRepository;
 
 import javax.transaction.Transactional;
 import java.util.Optional;
